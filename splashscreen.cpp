@@ -5,10 +5,11 @@
 int main()
 {
 
-	InitWindow(, SCREEN_WIDTH, "To Do List");
+	InitWindow(SCREEN_HEIGHT, SCREEN_WIDTH, "To Do List");
 
 	Vector2 mouseCursorPoint = GetMousePosition();
-	Texture2D NewListBounds = { };
+	// TODO: MAKE BOUNDS FOR THE to do list button area
+	Texture2D NewListBounds = {};
 
 	while (!WindowShouldClose())
 	{
@@ -27,7 +28,7 @@ int main()
 			// TODO: check for cursor bounds 
 			mouseCursorPoint = GetMousePosition();
 
-			if (mouseCursorPoint > )
+			//if (mouseCursorPoint > )
 
 		}
 

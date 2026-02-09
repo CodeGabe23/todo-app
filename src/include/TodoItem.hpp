@@ -9,13 +9,10 @@ private:
     bool completed;
 
 public:
-    TodoItem(const std::string& desc) : description(desc), completed(false) {}
-
-    void markComplete() { completed = true; }
-
-    std::string getDescription() const { return description; }
-
-    bool isCompleted() const { return completed; }
+    TodoItem(const std::string& desc);
+    void markComplete();
+    std::string getDescription() const;
+    bool isCompleted() const;
 };
 
 #endif

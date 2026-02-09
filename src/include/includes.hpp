@@ -8,5 +8,7 @@
 #include "designElements.hpp"
 #include "TodoItem.hpp"
 #include "TodoList.hpp"
+#include "TodoApp.hpp"
+#include "CLI.hpp"
 
 #endif

@@ -1,9 +1,8 @@
-# Compiled binaries
 todo-app
+shell.nix
 
-# Object files
 *.o
-
-# Other common ignores
 *.log
 *.tmp
+
+*.json

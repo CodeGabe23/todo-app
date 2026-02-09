@@ -1,0 +1,9 @@
+# Compiled binaries
+todo-app
+
+# Object files
+*.o
+
+# Other common ignores
+*.log
+*.tmp
